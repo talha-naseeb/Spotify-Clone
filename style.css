@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
+body {
+  background-color: #1db954;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+nav {
+  font-family: "Roboto Slab", serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 60px;
+  background-color: black;
+  color: aliceblue;
+}
+nav ul li {
+  margin: 0 12px;
+}
+.brand img {
+  width: 40px;
+  padding: 0 5px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+.container {
+  min-height: 70vh;
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  margin: 19px auto;
+  width: 80%;
+  padding: 12px;
+  border-radius: 16px;
+  font-family: "Roboto Slab", serif;
+  background-image: url(Singer-Girl-Dark-Hd-Wallpaper.jpg);
+  background-size: cover;
+}
+
+.bottom {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bottom input {
+  cursor: pointer;
+}
+.icons {
+  margin-top: 10px;
+}
+.icons i {
+  cursor: pointer;
+}
+#myprogressbar {
+  width: 87vw;
+}
+.songItem {
+  height: 38px;
+  display: flex;
+  background-color: aliceblue;
+  color: black;
+  width: 70%;
+  margin: 12px 0px;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 34px;
+}
+.songItem img {
+  width: 35px;
+  margin: 0px 20px;
+  border-radius: 34px;
+}
+.timestamp {
+  margin: 0px 23px;
+}
+.timestamp i {
+  cursor: pointer;
+}
+.songinfo {
+  font-family: "Roboto Slab", serif;
+  position: absolute;
+  left: 5vw;
+}
+.songinfo img {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
